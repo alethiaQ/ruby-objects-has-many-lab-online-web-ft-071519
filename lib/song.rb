@@ -7,7 +7,7 @@ class Song
   end
 
   def artist_name
-    song.artist = self
+    ong.artist = self
   end
   def all
     @@all
