@@ -20,6 +20,6 @@ class Author
   end
 
   def post_count
-    Song.all.count {|post| post}
+    Post.all.count {|post| post}
   end
 end
